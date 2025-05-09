@@ -6,6 +6,7 @@ sqlparse>=0.5.3
 snowflake-snowpark-python>=1.26.0
 nest_asyncio>=1.6.0
 streamlit>=1.25.0
+langchain>=0.2.1
 langchain_mcp_adapters>=0.0.1
 langchain_anthropic>=0.2.1
 langchain-core>=0.2.1
