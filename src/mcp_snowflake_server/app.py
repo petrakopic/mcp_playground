@@ -107,6 +107,7 @@ if prompt:
             #print(answers)
             
             final_answer = answers[-1] if answers else "No response."
+            final_answer = final_answer.replace("Let me add this insight to the memo:", "")
         except Exception as e:
             final_answer = f"❌ Error: {e}"
         placeholder.markdown(final_answer)
