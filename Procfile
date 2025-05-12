@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run src/mcp_snowflake_server/app.py --server.port=$PORT --server.address=0.0.0.0 --server.basicAuth.enabled=true --server.basicAuth.username=$AUTH_USER --server.basicAuth.password=$AUTH_PASS
+web: sh setup.sh && streamlit run src/mcp_snowflake_server/app.py --server.port=$PORT --server.address=0.0.0.0
