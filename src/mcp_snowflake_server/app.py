@@ -51,7 +51,7 @@ if "event_loop" not in st.session_state:
 st.set_page_config(page_title="Shovels AI Chat", page_icon=ICON_PATH, layout="wide")
 st.image(ICON_PATH)
 st.title("Shovels AI Chat (Alpha)")
-st.markdown("This app is under active development and may not work as expected.") 
+st.markdown("⚠️ **Note:**: this app is under heavy development.") 
 # --- Agent setup ---
 async def setup_agent():
     server_params = StdioServerParameters(command=MCP_COMMAND[0], args=MCP_COMMAND[1:])
@@ -114,8 +114,7 @@ if prompt:
 
 with st.sidebar.expander("ℹ️ About", expanded=False):
     
-    st.markdown("This is a chatbot that can answer questions about Shovels data. "
-                "You can ask it about the data in the database, or about the database itself. ")
+    st.markdown("This is a chatbot that can answer questions about Shovels data. ")
 
     st.markdown("The chatbox is powered by [Claude 3.5 Sonnet](https://docs.anthropic.com/en/docs/models/claude-3-5-sonnet) and ")
     st.markdown("Learn more about [shovels.ai](https://shovels.ai) or check out our [data dictionary](https://docs.shovels.ai/docs/introduction)")
