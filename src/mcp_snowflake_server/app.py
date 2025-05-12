@@ -51,7 +51,7 @@ if "event_loop" not in st.session_state:
 st.set_page_config(page_title="Shovels AI Chat", page_icon=ICON_PATH, layout="wide")
 st.image(ICON_PATH)
 st.title("Shovels AI Chat (Alpha)")
-st.markdown("⚠️ **Note:**: this app is under heavy development.") 
+st.markdown("⚠️ **Note:** this app is under heavy development.") 
 # --- Agent setup ---
 async def setup_agent():
     server_params = StdioServerParameters(command=MCP_COMMAND[0], args=MCP_COMMAND[1:])
