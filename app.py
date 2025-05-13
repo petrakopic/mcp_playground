@@ -14,6 +14,8 @@ from langgraph.checkpoint.memory import InMemorySaver
 
 # --- Constants ---
 MCP_COMMAND = ["uv", "run", "mcp_snowflake_server", "--account", os.environ["SNOWFLAKE_ACCOUNT"], "--warehouse", os.environ["SNOWFLAKE_WAREHOUSE"],  "--user", os.environ["SNOWFLAKE_USER"], "--password", os.environ["SNOWFLAKE_PASSWORD"], "--role", os.environ["SNOWFLAKE_ROLE"], "--database", os.environ["SNOWFLAKE_DATABASE"], "--schema", os.environ["SNOWFLAKE_SCHEMA"]]
+#MCP_COMMAND = ["mcp_snowflake_server", "--account", os.environ["SNOWFLAKE_ACCOUNT"], "--warehouse", os.environ["SNOWFLAKE_WAREHOUSE"],  "--user", os.environ["SNOWFLAKE_USER"], "--password", os.environ["SNOWFLAKE_PASSWORD"], "--role", os.environ["SNOWFLAKE_ROLE"], "--database", os.environ["SNOWFLAKE_DATABASE"], "--schema", os.environ["SNOWFLAKE_SCHEMA"]]
+
 MODEL_NAME = "claude-3-5-sonnet-latest"
 PROMPT = """
 Step 1: Understand the question
