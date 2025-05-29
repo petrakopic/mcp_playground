@@ -151,7 +151,7 @@ with st.sidebar.expander("ℹ️ About", expanded=False):
 
 
 with st.sidebar.expander("💡 Example prompts", expanded=False):
-    st.markdown("- What is the count of solar installations in LOS ANGELES in 2025? ")
-    st.markdown("- Describe me the PERMITS table. ")
-    st.markdown("- How many permits were issued for new construction last year? ") 
-    st.markdown("- What is the average permit duration in FL? ") 
+    st.markdown("- What is the count of solar installations in Los Angeles in 2025? ")
+    st.markdown("- Which contractors have installed the most solar permits in San Francisco?")
+    st.markdown("- Which contractor completed the most roofing permits in New York last year? ") 
+    st.markdown("- What is the trend of ev charger installations in California like?") 
